@@ -1,0 +1,81 @@
+* {
+    margin: 0%;
+    display:flex;
+    flex-direction: column;
+    
+}
+body {
+    
+    background-color: rgb(224, 218, 218);
+}
+title {
+    display: none;
+}
+
+content {
+    box-sizing: border-box;
+    padding-left: 500px;
+    padding-right: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.mainheading {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 60px;
+    text-align: center;
+    
+
+}
+.subheading {
+    font-family: 'Syne Mono', monospace;
+    font-size: 20px;
+    color:rgb(224, 218, 218);
+    padding: 10px;
+}
+.meny {
+    color: rgb(224, 218, 218);
+    padding-left: 10px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+p, adress {
+    font-family: 'Ubuntu Mono', monospace; 
+}
+
+adress {
+    text-align: center;
+    padding: 50px;
+    color: rgb(224, 218, 218);
+}
+
+section { 
+    background-color:  rgb(32, 16, 16) ;
+    box-shadow: rgb(32, 16, 16) 0 0 10px;
+}
+
+
+img {
+    width: 600px;
+    height: 300px;
+    box-shadow: rgb(32, 16, 16) 0 0 10px;
+    }
+
+footer {
+    margin: 500px; 
+    margin:500px;
+    margin-top:30px;
+    background-color: rgb(32, 16, 16);
+    box-shadow: rgb(32, 16, 16) 0 0 10px;
+}
